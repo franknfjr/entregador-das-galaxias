@@ -361,15 +361,17 @@
         /* Pause Button */
         #pauseBtn {
             position: absolute;
-            top: 80px;
-            right: 20px;
-            width: 50px;
-            height: 50px;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 65px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background: rgba(26, 26, 46, 0.85);
             border: 2px solid rgba(255, 255, 255, 0.2);
             color: white;
-            font-size: 20px;
+            font-size: 16px;
             cursor: pointer;
             z-index: 110;
             display: none;
@@ -622,13 +624,42 @@
                 margin-top: 4px;
             }
 
+            #hud {
+                padding: 8px 10px;
+            }
+
+            .hud-left, .hud-right, .hud-center {
+                gap: 4px;
+            }
+
             .hud-item {
-                font-size: 12px;
-                padding: 6px 12px;
+                font-size: 10px;
+                padding: 4px 8px;
+                border-radius: 15px;
+            }
+
+            #phaseName {
+                font-size: 10px;
+            }
+
+            #score {
+                font-size: 10px;
+            }
+
+            #timer, #speedometer {
+                font-size: 10px;
             }
 
             #progressBar {
-                width: 120px;
+                width: 80px;
+                height: 8px;
+            }
+
+            #pauseBtn {
+                width: 32px;
+                height: 32px;
+                font-size: 13px;
+                margin-top: 50px;
             }
 
             .final-score {
@@ -636,7 +667,11 @@
             }
 
             .heart {
-                font-size: 20px;
+                font-size: 16px;
+            }
+
+            #lives {
+                gap: 2px;
             }
 
             #splashScreen .splash-logo {
