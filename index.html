@@ -565,22 +565,61 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .screen {
+                padding: 10px;
+                gap: 0;
+            }
+
+            #menuScreen img[alt="Logo"] {
+                width: 80px !important;
+                height: 80px !important;
+                margin-top: 10px !important;
+                margin-bottom: 5px !important;
+            }
+
             .logo {
-                font-size: 32px;
+                font-size: 22px;
+                margin-bottom: 4px;
             }
 
             .subtitle {
-                font-size: 14px;
+                font-size: 12px;
+                margin-bottom: 10px;
             }
 
             .btn {
-                padding: 12px 30px;
-                font-size: 14px;
+                padding: 10px 25px;
+                font-size: 13px;
+            }
+
+            #phaseSelect {
+                margin: 8px 0;
+                gap: 10px;
             }
 
             .phase-card {
-                width: 140px;
-                padding: 15px;
+                width: 100px;
+                padding: 10px;
+                border-radius: 10px;
+            }
+
+            .phase-icon {
+                font-size: 24px;
+                margin-bottom: 4px;
+            }
+
+            .phase-title {
+                font-size: 11px;
+                margin-bottom: 2px;
+            }
+
+            .phase-desc {
+                font-size: 9px;
+            }
+
+            .phase-lock {
+                font-size: 18px;
+                margin-top: 4px;
             }
 
             .hud-item {
@@ -601,22 +640,24 @@
             }
 
             #splashScreen .splash-logo {
-                width: 160px;
-                height: 160px;
+                width: 120px;
+                height: 120px;
             }
 
             #splashScreen .splash-title {
-                font-size: 26px;
+                font-size: 22px;
             }
 
             .instructions {
-                margin-top: 10px;
-                font-size: 12px;
+                margin-top: 8px;
+                font-size: 11px;
+                line-height: 1.6;
             }
 
             .instructions span {
-                padding: 4px 8px;
-                margin: 0 3px;
+                padding: 3px 6px;
+                margin: 0 2px;
+                font-size: 10px;
             }
         }
     </style>
